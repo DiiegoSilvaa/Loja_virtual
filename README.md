@@ -41,7 +41,7 @@ Os arquivos `dados.txt` e `ordenado.txt` são gerados automaticamente na pasta o
 
 ## Como compilar e executar
 
-É necessário ter um compilador C instalado, como o GBD online. [![GDB Online](https://www.onlinegdb.com/#)]
+É necessário ter um compilador C instalado, como o GBD online. [[GDB Online](https://www.onlinegdb.com/)]
 
 ## Exemplo de uso
 
