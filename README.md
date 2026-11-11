@@ -73,3 +73,21 @@ Ordenado e salvo!
 - O limite é de 100 números por arquivo.
 - Se o `dados.txt` não existir, as opções 2 e 3 pedem para criar o arquivo primeiro.
 - Criar um novo arquivo (opção 1) sobrescreve o `dados.txt` anterior.
+
+## Evolução do trabalho
+
+O projeto foi desenvolvido em etapas, e cada uma acrescentou uma funcionalidade ao programa:
+
+1. **Base do programa**: criamos o menu principal em laço (`do...while`) e a leitura dos números digitados pelo usuário em um vetor de até 100 posições.
+2. **Persistência em arquivo**: passamos a gravar os números em `dados.txt`, para que os dados continuassem disponíveis depois que o programa fosse encerrado.
+3. **Primeiros métodos de ordenação**: implementamos o Bubble Sort e o Insertion Sort, comparando o funcionamento de cada um.
+4. **Ampliação dos métodos**: incluímos o Selection Sort e o Merge Sort (em versão iterativa), deixando o usuário escolher o método pelo menu.
+5. **Resultado salvo**: o vetor ordenado passou a ser exibido na tela e gravado em `ordenado.txt`.
+6. **Alteração de valores**: acrescentamos a opção de trocar um número por posição, atualizando o `dados.txt`.
+7. **Validações e versão final**: adicionamos tratamento de erros (quantidade inválida, arquivo inexistente, posição inválida, método inválido) e consolidamos tudo no arquivo `Trabalho atualizado C.c`.
+
+### Próximos passos possíveis
+
+- Permitir mais de 100 números com alocação dinâmica de memória.
+- Exibir o tempo de execução de cada método para comparar o desempenho.
+- Separar o código em funções para facilitar a leitura e a manutenção.
